@@ -53,6 +53,8 @@ average(data, windowSize, threshold)
    be applied. Use this to smooth out small variations but large varitions
    through immediately. The difference between /a/ and /b/ is calculated as
    /(max(a, b) - min(a, b)) / max(a, b)/. No default.
+   
+ - `skipNulls`: Whether to include null values in avergae calculations.  Defaults to false.
 
 ### Example
 
